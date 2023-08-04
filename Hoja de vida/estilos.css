@@ -1,0 +1,36 @@
+body{
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    letter-spacing: -1px; 
+}
+.grid-container{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    float: center;
+    height: 400vh;
+        display: grid;
+        grid-template-columns: 30% 70%;
+        grid-column-gap:1fr 40%;
+        background-color:rgb(220, 220, 220);
+}
+.perfil{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    float: center;
+    height: 400vh;
+        display: grid;
+        background-color:#87ceeb;
+    }
+    h2{
+        font-size: 36px; 
+        color: white; 
+        background-color: #00bfa5; 
+        padding: 10px; 
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    img{
+        width: 400px;
+        height: 600px;
+    }
